@@ -1,18 +1,577 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Christmas</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Project</title>
-</head>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
 
-<body>
-    start
+    <body>
+        <!-- header -->
+        <header class="header">
+            <a href="#" class="logo">Christmas</a>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#products">Products</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+                <a href="#blogs">Blogs</a>
+            </nav>
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+            </div>
 
-    <script src="./assets/js/main.js"></script>
-</body>
+            <form class="search-form">
+                <input
+                    type="search"
+                    name=""
+                    placeholder="Search here..."
+                    id="search-box"
+                />
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+        </header>
+        <!-- header end -->
 
+        <!-- home -->
+        <section class="home" id="home">
+            <div class="content">
+                <p>We wish you a</p>
+                <h3>merry christmas</h3>
+            </div>
+
+            <img src="./assets/images/trees.png" alt="tree" class="tree" />
+            <img
+                src="./assets/images/mountains.png"
+                alt="mountain"
+                class="mountain"
+            />
+            <img src="./assets/images/moon.png" alt="moon" class="moon" />
+            <img src="./assets/images/cloud.png" alt="cloud" class="cloud-1" />
+            <img src="./assets/images/cloud.png" alt="cloud" class="cloud-2" />
+        </section>
+        <!-- home end -->
+
+        <!-- about -->
+        <section class="about" id="about">
+            <div class="image" data-aos="fade-right" data-aos-delay="150">
+                <img src="./assets/images/about-img.png" alt="about" />
+            </div>
+            <div class="content" data-aos="fade-left" data-aos-delay="300">
+                <span>Why choose us?</span>
+                <h3>celebrate christmas with us</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corrupti, sed odit aliquid illum autem dolore adipisci rem
+                    sit dignissimos earum minima temporibus suscipit maxime vel,
+                    veritatis quas ipsam eveniet totam!
+                </p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+        </section>
+        <!-- about end -->
+
+        <!-- products -->
+        <section class="products" id="products">
+            <h1 class="heading">Our <span>products</span></h1>
+            <div class="box-container">
+                <div class="box" data-aos="fade-up" data-aos-delay="150">
+                    <div class="image">
+                        <img
+                            src="./assets/images/product-1.png"
+                            alt="product"
+                        />
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Christmas decor</h3>
+                        <div class="price">$29.99 <span>$39.99</span></div>
+                    </div>
+                </div>
+
+                <div class="box" data-aos="fade-up" data-aos-delay="300">
+                    <div class="image">
+                        <img
+                            src="./assets/images/product-2.png"
+                            alt="product"
+                        />
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Christmas decor</h3>
+                        <div class="price">$29.99 <span>$39.99</span></div>
+                    </div>
+                </div>
+
+                <div class="box" data-aos="fade-up" data-aos-delay="450">
+                    <div class="image">
+                        <img
+                            src="./assets/images/product-3.png"
+                            alt="product"
+                        />
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Christmas decor</h3>
+                        <div class="price">$29.99 <span>$39.99</span></div>
+                    </div>
+                </div>
+
+                <div class="box" data-aos="fade-up" data-aos-delay="600">
+                    <div class="image">
+                        <img
+                            src="./assets/images/product-4.png"
+                            alt="product"
+                        />
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Christmas decor</h3>
+                        <div class="price">$29.99 <span>$39.99</span></div>
+                    </div>
+                </div>
+
+                <div class="box" data-aos="fade-up" data-aos-delay="750">
+                    <div class="image">
+                        <img
+                            src="./assets/images/product-5.png"
+                            alt="product"
+                        />
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Christmas decor</h3>
+                        <div class="price">$29.99 <span>$39.99</span></div>
+                    </div>
+                </div>
+
+                <div class="box" data-aos="fade-up" data-aos-delay="900">
+                    <div class="image">
+                        <img
+                            src="./assets/images/product-6.png"
+                            alt="product"
+                        />
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Christmas decor</h3>
+                        <div class="price">$29.99 <span>$39.99</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- products end -->
+
+        <!-- services -->
+        <section class="services" id="services">
+            <h1 class="heading">Our <span>services</span></h1>
+            <div class="box-container">
+                <div class="box" data-aos="fade-up" data-aos-delay="150">
+                    <i class="fas fa-tree"></i>
+                    <h3>Christmas tree</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Doloribus, perferendis?
+                    </p>
+                </div>
+
+                <div class="box" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-cookie"></i>
+                    <h3>Christmas cookies</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Doloribus, perferendis?
+                    </p>
+                </div>
+
+                <div class="box" data-aos="fade-up" data-aos-delay="450">
+                    <i class="fas fa-snowman"></i>
+                    <h3>Christmas snowman</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Doloribus, perferendis?
+                    </p>
+                </div>
+
+                <div class="box" data-aos="fade-up" data-aos-delay="600">
+                    <i class="fas fa-gifts"></i>
+                    <h3>christmas gifts</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Quaerat, doloribus!
+                    </p>
+                </div>
+
+                <div class="box" data-aos="fade-up" data-aos-delay="750">
+                    <i class="fas fa-candy-cane"></i>
+                    <h3>christmas candy</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Quaerat, doloribus!
+                    </p>
+                </div>
+
+                <div class="box" data-aos="fade-up" data-aos-delay="900">
+                    <i class="fas fa-sleigh"></i>
+                    <h3>christmas sleigh</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Quaerat, doloribus!
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- services end -->
+
+        <!-- gallery -->
+        <section class="gallery" id="gallery">
+            <h1 class="heading">Our <span>gallery</span></h1>
+            <div class="box-container">
+                <img
+                    src="./assets/images/g-img-1.jpg"
+                    alt="gallery"
+                    data-aos="zoom-in"
+                    data-aos-delay="150"
+                />
+                <img
+                    src="./assets/images/g-img-2.jpg"
+                    alt="gallery"
+                    data-aos="zoom-in"
+                    data-aos-delay="300"
+                />
+                <img
+                    src="./assets/images/g-img-3.jpg"
+                    alt="gallery"
+                    data-aos="zoom-in"
+                    data-aos-delay="450"
+                />
+                <img
+                    src="./assets/images/g-img-4.jpg"
+                    alt="gallery"
+                    data-aos="zoom-in"
+                    data-aos-delay="600"
+                />
+                <img
+                    src="./assets/images/g-img-5.jpg"
+                    alt="gallery"
+                    data-aos="zoom-in"
+                    data-aos-delay="750"
+                />
+                <img
+                    src="./assets/images/g-img-6.jpg"
+                    alt="gallery"
+                    data-aos="zoom-in"
+                    data-aos-delay="900"
+                />
+                <img
+                    src="./assets/images/g-img-7.jpg"
+                    alt="gallery"
+                    data-aos="zoom-in"
+                    data-aos-delay="1050"
+                />
+                <img
+                    src="./assets/images/g-img-8.jpg"
+                    alt="gallery"
+                    data-aos="zoom-in"
+                    data-aos-delay="1200"
+                />
+                <img
+                    src="./assets/images/g-img-9.jpg"
+                    alt="gallery"
+                    data-aos="zoom-in"
+                    data-aos-delay="1350"
+                />
+            </div>
+        </section>
+        <!-- gallery end -->
+
+        <!-- contact -->
+        <section class="contact" id="contact">
+            <form>
+                <h3 data-aos="fade-up" data-aos-delay="150">Contact Us</h3>
+                <input
+                    type="text"
+                    class="box"
+                    placeholder="Your name"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                />
+                <input
+                    type="email"
+                    class="box"
+                    placeholder="Email"
+                    data-aos="fade-up"
+                    data-aos-delay="450"
+                />
+                <input
+                    type="phone"
+                    class="box"
+                    placeholder="Phone"
+                    data-aos="fade-up"
+                    data-aos-delay="600"
+                />
+                <textarea
+                    name=""
+                    cols="30"
+                    rows="10"
+                    placeholder="Message"
+                    class="box"
+                    data-aos="fade-up"
+                    data-aos-delay="750"
+                ></textarea>
+                <input
+                    type="submit"
+                    class="btn"
+                    value="Send now"
+                    data-aos="fade-up"
+                    data-aos-delay="900"
+                />
+            </form>
+        </section>
+        <!-- contact end -->
+
+        <!-- blogs -->
+        <section class="blogs" id="blogs">
+            <h1 class="heading">Our <span>blogs</span></h1>
+            <div class="box-container">
+                <div class="box" data-aos="fade-up" data-aos-delay="150">
+                    <div class="images">
+                        <img src="./assets/images/blog-1.jpg" alt="blog" />
+                    </div>
+                    <div class="content">
+                        <h3>Blog title goes here</h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Omnis, saepe?
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                        <div class="icons">
+                            <a href="#"
+                                ><i class="fas fa-calendar"></i> 10s march,
+                                2023</a
+                            >
+                            <a href="#"><i class="fas fa-user"></i> by admin</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-delay="300">
+                    <div class="images">
+                        <img src="./assets/images/blog-2.jpg" alt="blog" />
+                    </div>
+                    <div class="content">
+                        <h3>Blog title goes here</h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Omnis, saepe?
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                        <div class="icons">
+                            <a href="#"
+                                ><i class="fas fa-calendar"></i> 10s march,
+                                2023</a
+                            >
+                            <a href="#"><i class="fas fa-user"></i> by admin</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-delay="450">
+                    <div class="images">
+                        <img src="./assets/images/blog-3.jpg" alt="blog" />
+                    </div>
+                    <div class="content">
+                        <h3>Blog title goes here</h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Omnis, saepe?
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                        <div class="icons">
+                            <a href="#"
+                                ><i class="fas fa-calendar"></i> 10s march,
+                                2023</a
+                            >
+                            <a href="#"><i class="fas fa-user"></i> by admin</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- blogs end -->
+
+        <!-- footer -->
+        <section class="footer">
+            <div class="box-container">
+                <div class="box" data-aos="fade-down" data-aos-delay="150">
+                    <h3>Quick links</h3>
+                    <a class="link" href="#home"
+                        ><i class="fas fa-angle-right"></i> Home</a
+                    >
+                    <a class="link" href="#about"
+                        ><i class="fas fa-angle-right"></i> About</a
+                    >
+                    <a class="link" href="#products"
+                        ><i class="fas fa-angle-right"></i> Products</a
+                    >
+                    <a class="link" href="#services"
+                        ><i class="fas fa-angle-right"></i> Services</a
+                    >
+                    <a class="link" href="#gallery"
+                        ><i class="fas fa-angle-right"></i> Gallery</a
+                    >
+                    <a class="link" href="#contact"
+                        ><i class="fas fa-angle-right"></i> Contact</a
+                    >
+                    <a class="link" href="#blogs"
+                        ><i class="fas fa-angle-right"></i> Blogs</a
+                    >
+                </div>
+                <div class="box" data-aos="fade-down" data-aos-delay="300">
+                    <h3>Extra links</h3>
+                    <a class="link" href="#"
+                        ><i class="fas fa-angle-right"></i> my order</a
+                    >
+                    <a class="link" href="#"
+                        ><i class="fas fa-angle-right"></i> my wishlist</a
+                    >
+                    <a class="link" href="#"
+                        ><i class="fas fa-angle-right"></i> my favourite</a
+                    >
+                    <a class="link" href="#"
+                        ><i class="fas fa-angle-right"></i> terms of use</a
+                    >
+                    <a class="link" href="#"
+                        ><i class="fas fa-angle-right"></i> privacy policy</a
+                    >
+                </div>
+                <div class="box" data-aos="fade-down" data-aos-delay="450">
+                    <h3>Contact info</h3>
+                    <a href="#" class="link"
+                        ><i class="fas fa-phone"></i> +123-456-7890</a
+                    >
+                    <a href="#" class="link"
+                        ><i class="fas fa-phone"></i> +111-222-3333</a
+                    >
+                    <a href="#" class="link"
+                        ><i class="fas fa-envelope"></i> christmas@gmail.com</a
+                    >
+                    <a href="#" class="link"
+                        ><i class="fas fa-envelope"></i> freetime@gmail.com</a
+                    >
+                    <a href="#" class="link"
+                        ><i class="fas fa-map"></i> Ukraine, Zaporizziya</a
+                    >
+                </div>
+                <div class="box" data-aos="fade-down" data-aos-delay="600">
+                    <h3>Newsletter</h3>
+                    <form>
+                        <input
+                            type="email"
+                            name=""
+                            id=""
+                            class="email"
+                            placeholder="Your email"
+                        />
+                        <input type="submit" value="Subscribe" class="btn" />
+                    </form>
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="credit">
+                Created by <span>Freetime</span> | All righs reserved. 2023.
+            </p>
+        </section>
+        <!-- footer end -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+        <script src="./assets/js/main.js"></script>
+    </body>
 </html>
